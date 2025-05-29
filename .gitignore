@@ -1,0 +1,41 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+
+# 환경 설정 파일
+.env
+.env.local
+.env.*.local
+
+# IDE 설정
+.vscode/
+.idea/
+
+# macOS 시스템 파일
+.DS_Store
+
+# OS 또는 편집기 관련
+Thumbs.db
+*.swp
+*.swo
+
+# 로그 파일
+logs/
+*.log
+
+# 테스트 관련
+coverage/
+jest-cache/
+jest-test-results.json
+
+# 기타 캐시
+.cache/
+.next/
+out/
+
+# Git 백업
+*.orig
